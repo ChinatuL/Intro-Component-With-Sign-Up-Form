@@ -1,0 +1,148 @@
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  margin: auto 0;
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 80%;
+  height: 100%;
+  margin: auto 10%;
+  font-weight: 400;
+}
+.main .page-heading {
+  width: 47.5%;
+  color: hsl(0, 0%, 100%);
+}
+.main .page-heading__title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.main .page-heading__description {
+  padding-top: 2rem;
+  font-weight: 400;
+}
+.main .registration {
+  width: 47.5%;
+}
+.main .registration__banner {
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 0.7rem;
+  background-color: hsl(248, 32%, 49%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  text-align: center;
+}
+.main .registration__banner-highlight {
+  font-weight: 600;
+}
+.main .registration__form {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 2rem;
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 1rem;
+}
+.main .registration__form-group {
+  position: relative;
+}
+.main .registration__form .visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main .registration__form-input {
+  border: 1px solid hsl(246, 25%, 77%);
+  outline: none;
+  border-radius: 0.4rem;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-family: inherit;
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+}
+.main .registration__form-input:focus, .main .registration__form-input:active {
+  border: 1px solid hsl(249, 10%, 26%);
+}
+.main .registration__form-input:-webkit-autofill, .main .registration__form-input:-webkit-autofill:hover, .main .registration__form-input:-webkit-autofill:focus, .main .registration__form-input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: hsl(249, 10%, 26%) !important;
+}
+.main .registration__form-error-icon {
+  display: none;
+  position: absolute;
+  top: 0.9rem;
+  right: 1rem;
+}
+.main .registration__form-error {
+  display: none;
+  color: hsl(0, 100%, 74%);
+  text-align: right;
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 500;
+}
+.main .registration__form .invalid {
+  border: 1px solid hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+}
+.main .registration__form-btn {
+  border: none;
+  border-radius: 0.4rem;
+  box-shadow: 0px 3px hsl(154, 59%, 42%);
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: hsl(154, 59%, 51%);
+  font-family: inherit;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.main .registration__form-btn:hover {
+  opacity: 70%;
+}
+.main .registration__form-terms {
+  font-size: 0.7rem;
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+  font-weight: 500;
+}
+.main .registration__form .terms-conditions {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */
