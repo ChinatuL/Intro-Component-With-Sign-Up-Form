@@ -105,7 +105,7 @@ body {
             &-error-icon {
                 display: none;
                 position: absolute;
-                top: 0.9rem;
+                top: 1.9rem;
                 right: 1rem;
             }
 
@@ -153,6 +153,61 @@ body {
                 color: $red;
                 font-weight: getFontWeight(bold);
             }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        flex-direction: column;
+    }
+
+    .main {
+        flex-direction: column;
+        width: 90%;
+        margin: auto 10%;
+
+        .page-heading {
+            width: 80%;
+            margin-top: 5rem;
+            text-align: center;
+
+            &__title {
+                font-size: 2.5rem;
+            }
+
+            &__description {
+                margin-bottom: 4rem;
+            }
+        }
+
+        .registration {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-image: url("../images/bg-intro-mobile.png");
+    }
+    .main {
+        .page-heading {
+            width: 100%;
+
+            &__title {
+                font-size: 2rem;
+                line-height: 1.3;
+            }
+
+            &__description {
+                padding: 1.5rem 0.5rem 0;
+                line-height: 1.7;
+            }
+        }
+        .registration {
+            width: 100%;
+            margin-bottom: 3rem;
         }
     }
 }
