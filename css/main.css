@@ -116,6 +116,8 @@ body {
 }
 .main .registration__form .invalid {
   border: 1px solid hsl(0, 100%, 74%);
+}
+.main .registration__form .red-value {
   color: hsl(0, 100%, 74%);
 }
 .main .registration__form-btn {
