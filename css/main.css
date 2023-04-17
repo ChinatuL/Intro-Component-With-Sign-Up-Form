@@ -60,24 +60,24 @@ body {
   font-weight: 600;
 }
 .main .registration__form {
+  margin-top: 1rem;
   border-radius: 0.5rem;
   padding: 1rem 2rem 2rem;
   background-color: hsl(0, 0%, 100%);
-  margin-top: 1rem;
 }
 .main .registration__form-group {
   position: relative;
 }
 .main .registration__form .visually-hidden {
-  border: 0;
-  padding: 0;
-  margin: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
   position: absolute;
   height: 1px;
   width: 1px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   overflow: hidden;
   white-space: nowrap;
 }
@@ -88,8 +88,8 @@ body {
   width: 100%;
   padding: 1rem;
   margin-top: 1rem;
-  font-family: inherit;
   color: hsl(249, 10%, 26%);
+  font-family: inherit;
   font-weight: 600;
 }
 .main .registration__form-input:focus, .main .registration__form-input:active {
@@ -128,9 +128,9 @@ body {
   padding: 1rem;
   width: 100%;
   background-color: hsl(154, 59%, 51%);
+  color: hsl(0, 0%, 100%);
   font-family: inherit;
   text-transform: uppercase;
-  color: hsl(0, 0%, 100%);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -138,15 +138,15 @@ body {
   opacity: 70%;
 }
 .main .registration__form-terms {
+  color: hsl(246, 25%, 77%);
   font-size: 0.7rem;
   text-align: center;
-  color: hsl(246, 25%, 77%);
   font-weight: 500;
 }
 .main .registration__form .terms-conditions {
-  text-decoration: none;
   color: hsl(0, 100%, 74%);
   font-weight: 700;
+  text-decoration: none;
 }
 
 @media (max-width: 1000px) {
